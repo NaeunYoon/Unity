@@ -43,8 +43,7 @@ public class PlayerController : MonoBehaviour
             playerRigedbody.AddForce(-speed, 0f, 0f);
         }
 
-        //------------------------------------------------------------------2¹ø¹æ¹ý
-
+        
 
 
 

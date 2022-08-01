@@ -2718,3 +2718,22 @@
 {"timestamp":"2022-07-29T06:46:51.043Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
 {"timestamp":"2022-07-29T07:59:34.968Z","level":"info","moduleName":"HubIPCService","message":"[ 'socket has disconnected: [object Object] , false!' ]"}
 {"timestamp":"2022-07-29T07:59:35.215Z","level":"info","moduleName":"LaunchProcess","message":"[ 'child process exited with code 0' ]"}
+{"timestamp":"2022-07-29T08:46:01.607Z","level":"info","moduleName":"Authentification Service","message":"[\n  'Access token is expired, attempting to get a new one with refresh token'\n]"}
+{"timestamp":"2022-07-29T08:46:01.607Z","level":"info","moduleName":"Authentification Service","message":"[ 'logging in with the refresh token' ]"}
+{"timestamp":"2022-07-29T08:46:01.607Z","level":"info","moduleName":"Authentification Service","message":"[ 'refreshing the tokens with refresh token' ]"}
+{"timestamp":"2022-07-29T08:46:02.567Z","level":"info","moduleName":"Authentification Service","message":"[ 'Fetching user info from the identity provider using access token' ]"}
+{"timestamp":"2022-07-29T08:46:02.726Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2022-07-29T08:46:02.740Z","level":"info","moduleName":"LicensingSdkService","message":"[\n  'activateAllEntitlementBasedLicenses: Activating all entitlement based licenses'\n]"}
+{"timestamp":"2022-07-29T08:46:03.451Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated all entitlement based licenses:[]' ]"}
+{"timestamp":"2022-07-29T08:46:03.451Z","level":"info","moduleName":"LicenseService","message":"[ 'activateAllEntitlementBasedLicenses: finished' ]"}
+{"timestamp":"2022-07-29T08:46:03.452Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2022-07-29T08:46:03.474Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2022-07-29T08:46:03.474Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2022-07-29T08:46:03.475Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2022-07-29T08:46:03.487Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2022-07-29T10:17:16.061Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2022-07-29T10:17:16.076Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2022-07-29T10:17:16.077Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2022-07-29T10:17:16.078Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2022-07-29T10:17:16.094Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2022-07-29T10:17:16.094Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
