@@ -13,7 +13,7 @@ public class BackgroundLoop : MonoBehaviour {
 
     private void Update() {
         // 현재 위치가 원점에서 왼쪽으로 width 이상 이동했을때 위치를 리셋
-        if (transform.position.x <= width)
+        if (transform.position.x <= -width)
         {
             Reposition();
         }
@@ -23,7 +23,7 @@ public class BackgroundLoop : MonoBehaviour {
     // 위치를 리셋하는 메서드
     private void Reposition() {
         //현재 위치에서 오른쪽으로 가로길이 *2 만큼 이동
-        Vector2 offset = new Vector2(width * 2, 0);
+        Vector2 offset = new Vector2(width * 2f, 0);
         transform.position = (Vector2)transform.position + offset;
     }
 }

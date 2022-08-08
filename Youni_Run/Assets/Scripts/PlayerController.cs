@@ -64,13 +64,13 @@ public class PlayerController : MonoBehaviour {
         //사망상태를 true 로 변경
         isDead = true;
 
-
+        GameManager.instance.OnPlayerDead();
    }
 
    private void OnTriggerEnter2D(Collider2D other) {
         // 트리거 콜라이더를 가진 장애물과의 충돌을 감지
 
-        if (other.tag == "Dead" && isDead)
+        if (other.tag.Equals( "Dead") && !isDead)
         {
             //충돌한 상대방의 태그가 Dead 이며, 아직 사망하지 않았다면 Dead 실행
             Die();
