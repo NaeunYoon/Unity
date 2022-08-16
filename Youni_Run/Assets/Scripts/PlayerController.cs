@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
             //현재 속도를 절반으로 변경
             playerRigidbody.velocity = playerRigidbody.velocity * 0.5f;
         }
-
+        Debug.Log(isGrounded);
         //애니메이터의 Grounded 파라미터를 isGrounded 값으로 갱신
         animator.SetBool("Grounded", isGrounded);
    }
