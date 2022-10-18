@@ -5,7 +5,7 @@ using UnityEngine;
 public class _10_17_Class02 : MonoBehaviour
 {
 
-    public int a = 10;
+    public int number = 10;
     void Start()
     {
         //Debug.Log(a);
